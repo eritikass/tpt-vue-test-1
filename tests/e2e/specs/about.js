@@ -6,7 +6,7 @@ module.exports = {
       .pause(2000)
       .click('a[href="#/about"]')
       .pause(2000)
-      .assert.containsText('body', 'This is an about page')
+      .assert.containsText('body', 'this page is pointlesss...!!!')
       .end();
   },
 };
