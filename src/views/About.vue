@@ -20,13 +20,13 @@ export default {
       text: 'this page is pointlesss...!!!!',
       val1: 0,
       val2: 0,
-      message: 'haha'
+      message: 'haha',
     };
   },
   computed: {
-    valSum: function () {
+    valSum() {
       return calc(this.val1, this.val2);
-    }
-  }
+    },
+  },
 };
 </script>
